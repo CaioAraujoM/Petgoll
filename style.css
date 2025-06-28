@@ -1,0 +1,473 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    
+}
+
+
+.background{
+    background-color: #171717;
+    background-image: url(img/a1.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+.background1{
+    background-color: #171717;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    background: transparent;
+    transition: all .35s ease;
+    background-color: #171717;
+    padding: 14px 14%;
+}
+
+body{
+    background: #171717;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+}
+
+.cabeçalho-link a{
+    color: #ffffff;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.cabeçalho-link a:hover{
+    color: #ffffff;
+}
+
+.icon span{
+    font-size: 2rem;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.icon span:hover{
+    color: #ffffff;
+}
+
+.Meio{
+    padding: 7rem 0 0 8.5rem;
+    line-height: 4rem;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    
+}
+
+.Meio button{
+    background-color: #FFC800;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #171717;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+
+}
+
+.Meio button:hover{
+      background-color: #ffffff;
+      transform: scaleY(1.2);
+}
+
+section{
+    padding-top: 7rem;
+}
+
+section h1{
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+
+}
+
+.Container-card-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+
+.cards img{
+    background-color: #FFC800;
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+    border-radius: 5px;
+    
+}
+
+.cards img:hover{
+    background-color: #FFC800;
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.cards{
+    text-align: center;
+    background-color: #FFC800;
+    border-radius: 5px;
+}
+
+/*Inicio produtos*/
+.Container-card-0{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-top: 2rem;
+    border-radius: 5px;
+}
+
+.cards1 img{
+    background-color: #FFC800;
+    width: 450px;
+    height: auto;
+    transition: 0.35s ease;
+    border-radius: 5px;
+    
+}
+
+.cards1 img:hover{
+    background-color: #FFC800;
+     transform: scale(0.9) translateY(-5px);
+     cursor: pointer;
+     border-radius: 5px;
+   
+     
+}
+
+.cards1{
+    text-align: center;
+    background-color: #FFC800;
+    border-radius: 5px;
+}
+
+.Container-roupas-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 5px;
+    
+}
+
+.Container-roupas-1 img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+
+}
+
+.roupa1 img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.roupa1{
+    background-color: #FFC800;
+    color: #000;
+    border-radius: 5px;
+}
+section h2{
+    color: #ffffff;
+}
+/*Fim produtos*/
+
+.cta{
+    height: 60vh;
+    width: 100%;
+    background: url(../img/ffffc.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.text-cta{
+    padding-left: 5rem;
+}
+
+.text-cta h6{
+    font-size: 17px;
+	font-weight: 500;
+	letter-spacing: .6px;
+	margin-bottom: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-cta h4{
+    font-size: 3.3rem;
+	line-height: 1.2;
+	letter-spacing: .6rem;
+	margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-cta a{
+    background-color: #FFC800;
+    padding: 1rem 3rem 1rem 3rem;
+    border: none;
+    border-radius: 5px;
+    color: #171717;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: all .3s ease-in-out;
+}
+
+.text-cta a:hover{
+    background-color: #ffffff;
+      transform: scaleY(1.2);
+
+}
+
+.Container-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    border-radius: 5px;
+}
+
+.Container-roupas img:hover{
+    transform: scale(0.9) translateY(-5px);
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.roupa img{
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.roupa{
+    background-color: #FFC800;
+    color: #000;
+    border-radius: 5px;
+}
+
+.Marcas{
+    margin-top: 10rem;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Marcas img{
+    width: 180px;
+    height: auto;
+    background-color: #171717;
+}
+
+#Contato{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: #ffffff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: #555;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #171717;
+}
+
+section{
+    align-items: center;
+    text-align: center;
+}
+section.cad{
+    margin-bottom: 15px;
+}
+
+/*Cadastro*/
+.by1{
+    background: #171717;
+    color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+}
+main{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #ffffff;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .midia-social {
+    display: flex;
+    align-content: center;
+}
+
+main .midia-social img {
+    width: 36px;
+    margin-left: 3rem;
+} 
+
+main .midia-social a:first-child img {
+    margin-left: 0;
+}
+
+main .alternativa {
+    margin-top: 1rem;
+}
+
+main .alternativa span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+} 
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main form input {
+    background: #FFC800;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: #171717;
+    font-size: 1rem;
+    border:  1px solid #0000;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 32px;
+    background: #ffffff;
+    color: #000;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover {
+    background: #FFC800;
+}
+section .imagens {
+    display: flex;
+    align-items: flex-end;
+    padding: 4rem;
+}
+
+section .imagens img{
+    width: 100%;
+}
+section img{
+    width: 300%;
+    height: 100%;
+}
+
+/*Carrinho*/
